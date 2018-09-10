@@ -11,7 +11,8 @@
     "react-native-mock": "^0.3.1",
     "react-native-scripts": "1.14.0",
     "react-test-renderer": "16.3.1",
-    "standard": "^11.0.1"
+    "standard": "^11.0.1",
+    "react-dom": "16.3.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -22,7 +23,7 @@
     "test": "jest"
   },
   "jest": {
-    "preset": "jest-expo",
+    "preset": "react-native",
     "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
     "setupFiles": [
       "enzyme-react-16-adapter-setup"
